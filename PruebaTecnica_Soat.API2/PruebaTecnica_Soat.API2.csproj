@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.17" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PruebaTecnica_Soat.Data\PruebaTecnica_Soat.Data.csproj" />
+    <ProjectReference Include="..\PruebaTecnica_Soat.Implement\PruebaTecnica_Soat.Implement.csproj" />
+    <ProjectReference Include="..\PruebaTecnica_Soat.Interfaces\PruebaTecnica_Soat.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

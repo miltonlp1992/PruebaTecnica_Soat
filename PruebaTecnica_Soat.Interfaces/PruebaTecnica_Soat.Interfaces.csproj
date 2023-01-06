@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PruebaTecnica_Soat.Data\PruebaTecnica_Soat.Data.csproj" />
+    <ProjectReference Include="..\PruebaTecnica_Soat.Entities\PruebaTecnica_Soat.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
